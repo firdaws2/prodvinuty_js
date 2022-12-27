@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: chocolate;
+}
+.container {
+    width: 300px;
+    height: 340px;
+    padding: 60px 15px 15px 15px;
+    border-radius: 10px;
+    border: solid;
+}
+.title {
+    color: gold;
+    padding: 0 66px;
+    margin-top: -35px;
+}
+.wrapper > div{
+    display: flex;
+    flex-direction: column;
+}
+.usd{
+    color: white;
+    margin-top: 50px;
+
+}
+.euro{
+    color: white;
+    margin-top: 50px;
+}
+.som {
+    color: white;
+}
+input{
+    padding: 10px 20px;
+}
+label{
+    font-size: 20px;
+}
+.usd:hover {
+    background: #ffffff;
+    color: #0c0c0c;
+}.euro:hover {
+    background: #ffffff;
+    color: #0c0c0c;
+}.som:hover {
+    background: #ffffff;
+    color: #0c0c0c;
+}
+
